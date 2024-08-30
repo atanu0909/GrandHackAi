@@ -1,0 +1,12 @@
+.invert-img {
+    filter: invert(1) brightness(2);
+}
+
+/* App.css or relevant stylesheet */
+.gradient-text {
+    background: linear-gradient(90deg, #63e, #b28ad3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Use this for WebKit browsers */
+    background-clip: text; /* Fallback */
+    color: transparent; /* Standard fallback for other browsers */
+}
